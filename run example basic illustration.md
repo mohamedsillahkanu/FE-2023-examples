@@ -83,10 +83,14 @@ git clone https://github.com/numalariamodeling/FE-2023-examples.git
 ### **Step 10: Run a simple simulation using the `run_example.py` file**
 
 To execute the simulation, run the following command:
-
+```python
+cd FE-2023-examples/
+```
 ```python
 python3 run_example.py
 ```
+![gitclone](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/run_example.png)
+
 
 ### **Step 11: Step-by-Step Explanation of the Output**
 

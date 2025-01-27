@@ -228,3 +228,113 @@ Experiment 784f07a9-de53-43e7-a175-a99ccd18dec0 succeeded.
    - Save your changes and exit the editor.
 
 
+### Step 13: Once the Experiment ID is updated, run the script:
+
+```python
+python3 run analyzer_W1.py
+```
+
+### **Step 14: Explanation of the Analysis Process**
+
+The output indicates the steps taken by the analysis manager when processing the results of the experiment. 
+---
+#### **14.1. Initializing the SlurmPlatform**
+```plaintext
+Initializing SlurmPlatform with:
+{
+   "mode": "local",
+   "job_directory": "/projects/b1139/FE_wko2809/FE-2023-examples/experiments"
+}
+```
+- **What Happened?**
+  - The `SlurmPlatform` is initialized in **`mode: local`**.
+  - This means the analysis is being run on a single machine (e.g., the same node or local machine) using the specified directory `/projects/b1139/FE_wko2809/FE-2023-examples/experiments` to access experiment data.
+
+---
+
+#### **14.2. Analyze Manager**
+```plaintext
+Analyze Manager
+ | 1 item(s) selected for analysis
+```
+- **What Happened?**
+  - The `Analyze Manager` has identified **1 item** (likely a file or dataset) for analysis.
+  - This item could be an output file generated from the earlier simulation, such as an inset chart or results log.
+
+---
+
+#### **14.3. Analysis Configuration**
+```plaintext
+ | partial_analyze_ok is True, max_items is None, and 0 item(s) are being ignored
+```
+- **What Happened?**
+  - **`partial_analyze_ok: True`**:
+    - Allows the analysis to proceed even if all expected items aren’t present.
+    - This is useful for debugging or working with incomplete datasets.
+  - **`max_items: None`**:
+    - There’s no limit on the number of items that can be analyzed.
+  - **`0 item(s) ignored`**:
+    - All items selected for analysis are valid and included.
+
+---
+
+#### **14.4. Analyzer(s) Identified**
+```plaintext
+ | Analyzer(s):
+ |  - SimpleInsetChartAnalyzer File parsing: on / Use cache: off
+```
+- **What Happened?**
+  - The `Analyze Manager` uses a specific tool called **`SimpleInsetChartAnalyzer`**.
+  - **`File parsing: on`**:
+    - The analyzer parses data from the relevant files to extract useful insights.
+  - **`Use cache: off`**:
+    - It doesn’t rely on cached results, ensuring fresh data processing.
+
+---
+
+#### **14.5. Pool of Processes**
+```plaintext
+ | Pool of 1 analyzing process(es)
+```
+- **What Happened?**
+  - The analysis uses **1 process** to perform the task.
+  - This indicates the analysis is single-threaded, which is sufficient since only one item is being processed.
+
+---
+
+#### **14.6. File Parsing Progress**
+```plaintext
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.10it/s]
+```
+- **What Happened?**
+  - The file parsing step completes successfully.
+  - Progress Bar:
+    - **`1/1`**: 1 file has been parsed (out of 1 total).
+    - **`3.10 it/s`**: The parser processed the file at a speed of 3.10 items per second.
+
+---
+
+#### **14.7. Running Analyzer Reduces**
+```plaintext
+Running Analyzer Reduces: 100%|██████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  7.10it/s]
+```
+- **What Happened?**
+  - The reduction step of the analysis runs successfully.
+  - This step likely processes the parsed data further (e.g., aggregating or summarizing data).
+  - **Speed**:
+    - **`7.10 it/s`**: The reduction phase processed the data at a speed of 7.10 items per second.
+
+---
+
+#### **14.8. Analysis Completion**
+```plaintext
+ | Analysis complete. Took 0 seconds (~ 0.477 per item)
+```
+- **What Happened?**
+  - The analysis is finished.
+  - **Time Taken**:
+    - The total time was **0 seconds**, as the task was extremely lightweight.
+    - On average, it took **0.477 seconds per item** to process.
+
+
+

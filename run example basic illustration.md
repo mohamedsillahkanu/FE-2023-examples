@@ -16,5 +16,13 @@ module load python/3.8.4
 ```
 - Note: idmtools require python 3.7 or higher
 
+### Step 4: Create a virtual python environment
+
+```python
+python -m venv test
+```
+- Note: **test** is the name of the virtual environment for this example.
+
+
 
 

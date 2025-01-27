@@ -17,7 +17,7 @@ module load python/3.8.4
 - Note: idmtools require python 3.7 or higher
 
 
-### **Step 4: Create and Activate a Virtual Python Environment**
+### **Step 4: Create and Activate a Virtual Python Environment and update your .bashrc file**
 
 1. **Create the Virtual Environment**:
    Run the following command to create a virtual environment named `test`:
@@ -30,8 +30,12 @@ module load python/3.8.4
    source /home/wko2809/test/bin/activate
 - Note: **test** is the name of the virtual environment used in this example.
 - **/home/wko2809/test/** is the file path where the virtual environment is located.
-- 
+
+**virtual env**
 ![virtual_exp](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/virtula%20environment.png)
+
+**.bashrc**
+![bashrc](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/bashrc.png)
 
 ### Step 5: Install emodpy-malaria
 

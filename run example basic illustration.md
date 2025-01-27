@@ -63,6 +63,10 @@ Clone the repository:
    ```python
    git clone https://github.com/mohamedsillahkanu/FE-2023-examples.git
    ```
+                             OR
+```python
+git clone https://github.com/numalariamodeling/FE-2023-examples.git
+```
 **Note:** Ensure you are in the `FE_test` folder before cloning the repository.
 
 

@@ -65,7 +65,7 @@ cd /projects/b1139/
 mkdir FE_test
 ```
 
-![emodpy2](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/mkdir.png)
+![mkdir](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/mkdir.png)
 ### **Step 9: Clone the `FE-2023-examples` Repository into the `FE_test` Folder**
 
 Clone the repository:

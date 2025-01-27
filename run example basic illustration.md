@@ -7,7 +7,7 @@
 
 ### Step 2: Screen that appears after you Login
 
-![Aftter Login]https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/login.png
+![Aftter Login](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/login.png)
 
 
 

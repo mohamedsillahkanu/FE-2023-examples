@@ -236,6 +236,10 @@ Experiment 784f07a9-de53-43e7-a175-a99ccd18dec0 succeeded.
      experiment: 784f07a9-de53-43e7-a175-a99ccd18dec0
      ```
 
+**Output file of the experiment (InsetChat.json)**
+
+
+
 #### **12.2 Open `analyzer_W1.py`**:
    - Use a text editor to open the script:
    

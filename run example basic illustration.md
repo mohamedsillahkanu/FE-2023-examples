@@ -57,6 +57,14 @@ cd /projects/b1139/
 mkdir FE_test
 ```
 
+### **Step 9: Clone the `FE-2023-examples` Repository into the `FE_test` Folder**
+
+Clone the repository:
+   ```python
+   git clone https://github.com/mohamedsillahkanu/FE-2023-examples.git
+   ```
+**Note:** Ensure you are in the `FE_test` folder before cloning the repository.
+
 
 
 

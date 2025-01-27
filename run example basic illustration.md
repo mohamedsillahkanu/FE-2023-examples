@@ -248,7 +248,7 @@ Experiment 784f07a9-de53-43e7-a175-a99ccd18dec0 succeeded.
 #### **12.4 Save and Exit**:
    - Save your changes and exit the editor.
 
-![bashrc](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/bashrc.png)
+![bashrc](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/analyzerW1.png)
 
 ### Step 13: Once the Experiment ID is updated, run the script:
 

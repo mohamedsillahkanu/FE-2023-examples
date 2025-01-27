@@ -9,7 +9,7 @@
 
 ![Aftter_Login](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/After%20login.png)
 
-### Step 3: Load the Python module in the terminal to make it available for use as it is already installed
+### Step 3: Load the Python module in the terminal to activate it for use, as it is already pre-installed.
 
 ```python
 module load python/3.8.4

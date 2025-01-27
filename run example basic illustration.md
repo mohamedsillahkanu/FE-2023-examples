@@ -32,9 +32,11 @@ module load python/3.8.4
 - **/home/wko2809/test/** is the file path where the virtual environment is located.
 
 **virtual env**
+
 ![virtual_exp](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/virtula%20environment.png)
 
 **.bashrc**
+
 ![bashrc](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/bashrc.png)
 
 ### Step 5: Install emodpy-malaria

@@ -367,7 +367,7 @@ cd /projects/b1139/FE_wko2809/FE-2023-examples/experiments/my_outputs/example_ba
 
 ### Step 16: View the Plots to Assess Simulation Performance
 
-![output1](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/All_Age_InsetChart_climate_vectors.png)
+**Climate vectors**
 
 ![output1](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/All_Age_InsetChart_climate_vectors.png)
 

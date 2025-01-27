@@ -236,8 +236,6 @@ python3 run analyzer_W1.py
 
 ### **Step 14: Explanation of the Analysis Process**
 
-The output indicates the steps taken by the analysis manager when processing the results of the experiment. 
----
 #### **14.1. Initializing the SlurmPlatform**
 ```plaintext
 Initializing SlurmPlatform with:

@@ -434,16 +434,5 @@ cd /projects/b1139/FE_wko2809/FE-2023-examples/experiments/my_outputs/example_ba
    - The only dynamic parameter is **Human Infectious Reservoir**, which shows an initial peak and then stabilizes. This might represent an outbreak or a short-term increase in infections that decline over time.
 
 
-#### All Age InsetChat Infections output
-
-![outputall](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/All_Age_InsetChart_infections.png)
-
-#### All Age InsetChat Population output
-
-![outputall](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/All_Age_InsetChart_population.png)
-
-#### All Age InsetChat Prevalence output
-
-![outputall](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/All_Age_InsetChart_prevalence.png)
 
 

@@ -9,8 +9,12 @@
 
 ![Aftter_Login](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/After%20login.png)
 
+### Step 3: Load the Python module in the terminal
 
-
+```python
+module load python/3.8.4
+```
+- Note: idmtools require python 3.7 or higher
 
 
 

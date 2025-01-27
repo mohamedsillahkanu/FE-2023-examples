@@ -69,6 +69,143 @@ git clone https://github.com/numalariamodeling/FE-2023-examples.git
 ```
 **Note:** Ensure you are in the `FE_test` folder before cloning the repository.
 
+### **Step 10: Run a simple simulation using the `run_example.py` file**
 
+To execute the simulation, run the following command:
+
+```python
+python3 run_example.py
+```
+
+### **Step 11: Step-by-Step Explanation of the Output**
+
+#### **11.1. Initialization of SlurmPlatform**
+```plaintext
+Initializing SlurmPlatform with:
+{
+   "mode": "local",
+   "job_directory": "/projects/b1139/FE_wko2809/FE-2023-examples/experiments",
+   "time": "2:00:00",
+   "max_running_jobs": 10,
+   "modules": [
+      "singularity"
+   ],
+   "partition": "b1139testnode",
+   "account": "b1139"
+}
+```
+- **What Happened?**
+  - The **SlurmPlatform** is initialized to manage the simulations.
+  - Configuration:
+    - **Mode**: `local` – The simulations will run locally instead of across a cluster.
+    - **Job Directory**: `/projects/b1139/FE_wko2809/FE-2023-examples/experiments` – The output files will be stored here.
+    - **Time**: `2:00:00` – The maximum runtime for jobs is 2 hours.
+    - **Max Running Jobs**: `10` – Allows up to 10 jobs to run simultaneously.
+    - **Modules**: Includes `singularity`, the container runtime.
+    - **Partition**: `b1139testnode`, a specific Slurm partition (node group).
+    - **Account**: `b1139`, your account for Slurm resource allocation.
+
+---
+
+#### **11.2. Creation of EMODTask**
+```plaintext
+Creating EMODTask (from files)...
+```
+- **What Happened?**
+  - An **EMODTask** is being created. This task includes:
+    - Simulation configuration.
+    - Input files
+    - Experiment parameters.
+---
+
+#### **11.3. Generating the Demographics File**
+```plaintext
+Generating demographics file demographics.json.
+```
+- **What Happened?**
+  - A demographics file (`demographics.json`) is created. This file contains demographic data needed for the simulation.
+
+---
+
+#### **11.4. Discovering Experiment Assets**
+```plaintext
+Discovering experiment assets from tasks: 100%|████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 3315.66simulation/s]
+```
+- **What Happened?**
+  - The system scans and links required input files for the experiment.
+  - In this case, 1 task was successfully discovered and validated.
+
+---
+
+#### **11.5. Commissioning Simulations**
+```plaintext
+Commissioning Simulations: 100%|█████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  5.76simulation/s]
+```
+- **What Happened?**
+  - The simulation is sent to the Slurm scheduler for execution.
+  - 1 simulation was commissioned successfully.
+
+---
+
+#### **11.6. Job Directory, Suite, and Experiment Details**
+```plaintext
+job_directory: /projects/b1139/FE_wko2809/FE-2023-examples/experiments
+suite: db030038-a91f-4618-851f-068af94be557
+experiment: 784f07a9-de53-43e7-a175-a99ccd18dec0
+```
+- **What Happened?**
+  - **Job Directory**: Location where outputs, logs, and results are stored.
+  - **Suite ID**: `db030038-a91f-4618-851f-068af94be557` – Identifies the collection of related experiments.
+  - **Experiment ID**: `784f07a9-de53-43e7-a175-a99ccd18dec0` – Identifies the specific experiment.
+
+---
+
+#### **11.7. Experiment Directory**
+```plaintext
+Experiment Directory:
+/projects/b1139/FE_wko2809/FE-2023-examples/experiments/Suite_db030038-a91f-4618-851f-068af94be557/wko2809_FE_example_basic_784f07a9-de53-43e7-a175-a99ccd18dec0
+```
+- **What Happened?**
+  - The full path to the directory containing outputs for this specific experiment.
+
+---
+
+#### **11.8. Slurm Job ID**
+```plaintext
+Slurm Job Ids (1):
+   2263860
+```
+- **What Happened?**
+  - The job is submitted to Slurm and assigned a Job ID (`2263860`).
+  - This ID can be used to monitor the job’s status.
+
+---
+
+#### **11.9. Command to Check Job Status**
+```plaintext
+You may try the following command to check simulations running status:
+  idmtools slurm /projects/b1139/FE_wko2809/FE-2023-examples/experiments status --exp-id 784f07a9-de53-43e7-a175-a99ccd18dec0
+```
+- **What Happened?**
+  - You are given a command to monitor the status of the experiment using IDMTools.
+
+---
+
+#### **11.10. Simulation Progress**
+```plaintext
+Waiting on Experiment wko2809_FE_example_basic to Finish running: 100%|██████████████████████████████████████| 1/1 [01:00<00:00, 60.51s/simulation]
+```
+- **What Happened?**
+  - The simulation is running, and the progress bar shows completion.
+  - The simulation took approximately 1 minute (`60.51 seconds`) to run.
+
+---
+
+#### **11.11. Experiment Success**
+```plaintext
+Experiment 784f07a9-de53-43e7-a175-a99ccd18dec0 succeeded.
+```
+- **What Happened?**
+  - The simulation completed successfully without errors.
 
 

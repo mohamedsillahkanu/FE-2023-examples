@@ -248,7 +248,7 @@ Experiment 784f07a9-de53-43e7-a175-a99ccd18dec0 succeeded.
 #### **12.4 Save and Exit**:
    - Save your changes and exit the editor.
 
-![bashrc](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/analyzerW1.png)
+![analyzerW1](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/analyzerW1.png)
 
 ### Step 13: Once the Experiment ID is updated, run the script:
 
@@ -257,6 +257,8 @@ python3 run analyzer_W1.py
 ```
 
 ### **Step 14: Explanation of the Analysis Process**
+
+![analyzeroutput](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/analyzeroutput.png)
 
 #### **14.1. Initializing the SlurmPlatform**
 ```plaintext

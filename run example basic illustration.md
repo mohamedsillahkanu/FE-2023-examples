@@ -285,9 +285,8 @@ Analyze Manager
  | 1 item(s) selected for analysis
 ```
 - **What Happened?**
-  - The `Analyze Manager` has identified **1 item** (likely a file or dataset) for analysis.
-  - This item could be an output file generated from the earlier simulation, such as an inset chart or results log.
-
+  - The `Analyze Manager` has identified **1 item** (InsetChat.json) for analysis.
+  - This is the output file (InsetChat.json) generated from the earlier simulation.
 ---
 
 #### **14.3. Analysis Configuration**
@@ -347,7 +346,7 @@ Running Analyzer Reduces: 100%|████████████████�
 ```
 - **What Happened?**
   - The reduction step of the analysis runs successfully.
-  - This step likely processes the parsed data further (e.g., aggregating or summarizing data).
+  - This step processes the parsed data further.
   - **Speed**:
     - **`7.10 it/s`**: The reduction phase processed the data at a speed of 7.10 items per second.
 

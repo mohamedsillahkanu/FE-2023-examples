@@ -31,6 +31,32 @@ module load python/3.8.4
 - Note: **test** is the name of the virtual environment used in this example.
 - **/home/wko2809/test/** is the file path where the virtual environment is located.
 
+### Step 5: Install emodpy-malaria
+
+```python
+pip install emodpy-malaria --ignore-installed --index-url=https://packages.idmod.org/api/pypi/pypi-production/simple
+```
+
+### Step 6: Install idmtools_platform_slurm
+
+```python
+ pip install idmtools_platform_slurm --ignore-installed --index-url=https://packages.idmod.org/api/pypi/pypi-production/simple
+```
+
+### Step 7: Update the .bashrc file to automatically activate the virtual environment by adding the following command:
+
+```python
+alias load_emodpy='source /home/wko2809/test/bin/activate'
+```
+
+### **Step 8: Create a Directory in the Projects Folder**
+Run the following commands to navigate to the `/projects/b1139/` folder and create a directory named `FE_test`:
+
+```python
+cd /projects/b1139/
+mkdir FE_test
+```
+
 
 
 

@@ -38,7 +38,7 @@ module load python/3.8.4
 ```python
 pip install emodpy-malaria --ignore-installed --index-url=https://packages.idmod.org/api/pypi/pypi-production/simple
 ```
-![emodpy_malaria](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/emodpy-malaria.png)
+![emodpy_malaria](https://raw.githubusercontent.com/mohamedsillahkanu/main/FE-2023-examples/emodpy-malaria.png)
 
 ### Step 6: Install idmtools_platform_slurm
 

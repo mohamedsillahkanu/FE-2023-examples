@@ -97,7 +97,7 @@ Initializing SlurmPlatform with:
 - **What Happened?**
   - The **SlurmPlatform** is initialized to manage the simulations.
   - Configuration:
-    - **Mode**: `local` – The simulations will run locally instead of across a cluster.
+    - **Mode**: `local` – The simulations will run on one specific compute node within the HPC system.
     - **Job Directory**: `/projects/b1139/FE_wko2809/FE-2023-examples/experiments` – The output files will be stored here.
     - **Time**: `2:00:00` – The maximum runtime for jobs is 2 hours.
     - **Max Running Jobs**: `10` – Allows up to 10 jobs to run simultaneously.

@@ -238,6 +238,8 @@ Experiment 784f07a9-de53-43e7-a175-a99ccd18dec0 succeeded.
 
 **Output file of the experiment (InsetChat.json)**
 
+![idmtools2](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/InsetChat.png)
+
 
 
 #### **12.2 Open `analyzer_W1.py`**:

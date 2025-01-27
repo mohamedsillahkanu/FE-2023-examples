@@ -40,6 +40,9 @@ pip install emodpy-malaria --ignore-installed --index-url=https://packages.idmod
 ```
 ![emodpy_malaria](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/emodpy-malaria.png)
 
+![emodpy2](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/emodpy2.png)
+
+
 ### Step 6: Install idmtools_platform_slurm
 
 ```python

@@ -366,8 +366,9 @@ cd /projects/b1139/FE_wko2809/FE-2023-examples/experiments/my_outputs/example_ba
 ```
 
 ### Step 16: View the Plots to Assess Simulation Performance
+#### Goal: The goal of analyzing climate and vector (mosquito) dynamics is to understand how environmental factors and vector behaviors influence the transmission of vector-borne diseases, such as malaria.
 
-**Climate vectors**
+**All Ages InsetChart Climate Vector**
 
 ![output1](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/All_Age_InsetChart_climate_vectors.png)
 

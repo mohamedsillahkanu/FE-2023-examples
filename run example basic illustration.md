@@ -1,4 +1,4 @@
-# Step-by-step explanation of running a simple simulation script to analyzing climate and vector (mosquito) dynamics to understand how environmental factors and vector behaviors influence the transmission of malaria.
+# Step-by-step guide for running a basic simulation script to analyze climate and vector (mosquito) dynamics, aimed at understanding how environmental factors and vector behavior impact malaria transmission.
 
 
 ### Step 1: Open MobaXterm on your computer, select 'Start Local Terminal' or use the SSH option, and log in to Quest using your credentials."

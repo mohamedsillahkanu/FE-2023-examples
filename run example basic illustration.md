@@ -39,7 +39,6 @@ module load python/3.8.4
 pip install emodpy-malaria --ignore-installed --index-url=https://packages.idmod.org/api/pypi/pypi-production/simple
 ```
 ![emodpy_malaria](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/emodpy-malaria.png)
-
 ![emodpy2](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/emodpy2.png)
 
 

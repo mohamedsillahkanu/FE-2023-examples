@@ -48,6 +48,9 @@ pip install emodpy-malaria --ignore-installed --index-url=https://packages.idmod
  pip install idmtools_platform_slurm --ignore-installed --index-url=https://packages.idmod.org/api/pypi/pypi-production/simple
 ```
 
+![idmtools1](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/idmtools1.png)
+![idmtools2](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/idmtools2.png)
+
 ### Step 7: Update the .bashrc file to automatically activate the virtual environment by adding the following command:
 
 ```python
@@ -73,6 +76,8 @@ git clone https://github.com/mohamedsillahkanu/FE-2023-examples.git
 git clone https://github.com/numalariamodeling/FE-2023-examples.git
 ```
 **Note:** Ensure you are in the `FE_test` folder before cloning the repository.
+
+![gitclone](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/gitclone.png)
 
 ### **Step 10: Run a simple simulation using the `run_example.py` file**
 

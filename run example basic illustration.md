@@ -94,6 +94,8 @@ python3 run_example.py
 
 ### **Step 11: Step-by-Step Explanation of the Output**
 
+![sim_output](https://raw.githubusercontent.com/mohamedsillahkanu/FE-2023-examples/main/sim_output.png)
+
 #### **11.1. Initialization of SlurmPlatform**
 ```plaintext
 Initializing SlurmPlatform with:

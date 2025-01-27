@@ -208,4 +208,23 @@ Experiment 784f07a9-de53-43e7-a175-a99ccd18dec0 succeeded.
 - **What Happened?**
   - The simulation completed successfully without errors.
 
+### **Step 12: Update the Experiment ID in `analyzer_W1.py`**
+
+#### **12.1 Copy the Experiment ID**:
+   - Locate the **Experiment ID** from the output of the simulation. Example:
+     ```plaintext
+     experiment: 784f07a9-de53-43e7-a175-a99ccd18dec0
+     ```
+
+#### **12.2 Open `analyzer_W1.py`**:
+   - Use a text editor to open the script:
+   
+
+#### **12.3 Replace the Experiment ID**:
+   - Find the placeholder or old Experiment ID in the script.
+   - Replace it with the new Experiment ID you copied.
+
+#### **12.4 Save and Exit**:
+   - Save your changes and exit the editor.
+
 
